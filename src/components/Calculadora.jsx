@@ -8,7 +8,10 @@ function DownloadTimeCalculator() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const fileSizeInMB = fileSizeUnit === "GB" ? fileSize * 1024 : fileSize;
+    const fileSizeInMB =
+      fileSizeUnit === "GB"
+        ? parseFloat(fileSize) * 1024
+        : parseFloat(fileSize);
     const downloadTimeInSeconds = fileSizeInMB / (downloadSpeed / 8);
     const hours = Math.floor(downloadTimeInSeconds / 3600);
     const minutes = Math.floor((downloadTimeInSeconds % 3600) / 60);
@@ -27,7 +30,7 @@ function DownloadTimeCalculator() {
         </label>
         <input
           min={0}
-          type="number"
+          type="text"
           id="fileSize"
           value={fileSize}
           onChange={(e) => setFileSize(e.target.value)}
