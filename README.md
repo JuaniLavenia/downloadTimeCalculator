@@ -15,9 +15,9 @@ Calculadora de tiempo de descarga para archivos en MB o GB.
 
 3. Iniciar la aplicación:
 
-* npm start
+* npm run dev
 
-Esto iniciará la aplicación en modo de desarrollo. Abre http://localhost:3000 para verla en el navegador.
+Esto iniciará la aplicación en modo de desarrollo.
 
 ## Uso
 Ingresa el tamaño del archivo en MB o GB y la velocidad de descarga en MB/s.
