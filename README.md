@@ -6,7 +6,7 @@ Calculadora de tiempo de descarga para archivos en MB o GB.
 
 1. Clonar este repositorio:
 
-git clone https://github.com/JuaniLavenia/downloadTimeCalculator.git
+* git clone https://github.com/JuaniLavenia/downloadTimeCalculator.git
    
 2. Instalar las dependencias:
 
