@@ -20,19 +20,17 @@ Calculadora de tiempo de descarga para archivos en MB o GB.
 Esto iniciará la aplicación en modo de desarrollo.
 
 ## Uso
-Ingresa el tamaño del archivo en MB o GB y la velocidad de descarga en MB/s.
-Haz clic en el botón "Calcular tiempo de descarga".
-Se mostrará el tiempo estimado de descarga en horas, minutos y segundos.
+* Ingresa el tamaño del archivo en MB o GB y la velocidad de descarga en MB/s.
+* Haz clic en el botón "Calcular tiempo de descarga".
+* Se mostrará el tiempo estimado de descarga en horas, minutos y segundos.
 
 ## Tecnologías utilizadas
-React
-Vite
-Bootstrap
-FontAwesome
-Versel
+* React
+* Vite
+* Bootstrap
+* FontAwesome
+* Versel
 
 ## Contribuir
 Si quieres contribuir a este proyecto, ¡eres bienvenido! Solo haz un fork del repositorio, crea una nueva rama con tu contribución y abre un pull request.
 
-## Licencia
-Este proyecto está bajo la Licencia MIT.
