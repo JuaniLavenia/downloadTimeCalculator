@@ -1,0 +1,11 @@
+:root {
+  --bg-img: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://wallpaperaccess.com/full/4214210.gif);
+}
+
+body {
+  background-image: var(--bg-img);
+  background-position: center;
+  color: white;
+  text-align: center;
+}
