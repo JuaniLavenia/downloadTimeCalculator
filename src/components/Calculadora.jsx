@@ -72,7 +72,7 @@ function DownloadTimeCalculator() {
 
       <div className="mb-3">
         <label htmlFor="downloadSpeed" className="form-label">
-          Velocidad de descarga (MB/s):
+          Velocidad de descarga (Mb/s):
         </label>
         <input
           min={0}
